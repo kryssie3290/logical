@@ -45,7 +45,13 @@ first_number = float(input("first_number:"))
 second_number = float(input("second_number:"))
 sum = first_number ** second_number
 print(f"{first_number} ** {second_number} = {sum:.2f}")
-
+print("**************")
+print("enter two numbers to floor division")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+sum = first_number // second_number
+print(f"{first_number} // {second_number} = {sum:.2f}")
+ 
 
 
 
