@@ -11,7 +11,8 @@ percent = 25 / 100
 percent *= allowance
 allowance -= percent
 print(f"allowance: {allowance}")
-allowance = 1/3
+allowance -= (1/3) * (allowance)
+allowance //= 2
 print(f"allowance: {allowance}")
-allowance = 100 % 0.16666665 
-print(f"allowance: {allowance}")
+allowance %= 100
+print(f"balance: {allowance}")
